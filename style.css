@@ -139,8 +139,7 @@ a {
     margin-bottom: 12px;
   }
   
-.contact > a{
-    text-decoration: none;
+.contact > a {
     color: #000;
     opacity: .75;
   }
