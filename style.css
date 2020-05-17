@@ -101,7 +101,8 @@ a {
 .box-container {
     max-width: 700px;
     padding: 38px 50px;
-    margin: 200px auto;
+    margin-bottom: 64px;
+    margin-top: 200px;
     background: #fff;
     display: flex;
     flex-direction: row;
