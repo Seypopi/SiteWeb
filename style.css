@@ -101,7 +101,7 @@ a {
 .box-container {
     max-width: 700px;
     padding: 38px 50px;
-    margin: 150px auto;
+    margin: 200px auto;
     background: #fff;
     display: flex;
     flex-direction: row;
@@ -155,8 +155,8 @@ footer {
     text-align: center;
     bottom:0;
     width:100%;
-    padding-top:5px;
-    height:20px;
+    padding-top:15px;
+    height:30px;
     font-family: "Open Sans Regular", sans-serif;
     }
 
