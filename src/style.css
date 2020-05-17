@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: 'Open Sans Extra Bold Italic';
+    src: url(../assets/OpenSans-ExtraBoldItalic.woff) format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Light Italic';
+    src: url(../assets/OpenSans-LightItalic.woff) format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Bold Italic';
+    src: url(../assets/OpenSans-BoldItalic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Semi Bold Italic';
+    src: url(../assets/OpenSans-SemiBoldItalic.woff) format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: url(../assets/OpenSans-ExtraBold.woff) format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url(../assets/OpenSans-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url(../assets/OpenSans-Light.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Semi Bold';
+    src: url(../assets/OpenSans-SemiBold.woff) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url(../assets/OpenSanss-Italic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(../assets/OpenSans-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-bold {
+  font-family: "Open Sans Bold",sans-serif;
+}
+
+.font-semibold {
+  font-family: "Open Sans Semi Bold",sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans Regular", sans-serif;
+  }
+
+body {
+    background: #F6FAFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+a {
+  text-decoration: none;
+}
+
+.box-container {
+    max-width: 700px;
+    padding: 38px 50px;
+    margin: 150px auto;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 1px 3px hsla(0, 0%, 39%, .15);
+  }
+
+.box-container-picture {
+    padding-top: 50px;
+    margin-right: 32px;
+  }
+
+.box-container-picture > img {
+    width: auto;
+    height: 256px;
+  }
+
+.box-container-explainer {
+    color: #748598;
+  }
+
+.box-container-explainer-title {
+    color: #333;
+    font-size: 32px;
+    letter-spacing: .25px;
+    margin-bottom: 24px;
+  }
+
+.paragraph-top {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+.paragraph-bottom {
+    margin-bottom: 12px;
+  }
+  
+.contact > a{
+    text-decoration: none;
+    color: #000;
+    opacity: .75;
+  }
+
+.email > a {
+  text-decoration: none;
+}
+
+footer {
+    background: #fff;
+    font-size: 15px;
+    position:absolute;
+    text-align: center;
+    bottom:0;
+    width:100%;
+    padding-top:5px;
+    height:20px;
+    font-family: "Open Sans Regular", sans-serif;
+    }
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .box-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 5px;
+    }
+    .box-container-picture {
+      margin-right: 0px;
+    }
+    .box-container-explainer {
+      text-align: center;
+    }  
+  }
