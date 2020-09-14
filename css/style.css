@@ -42,7 +42,7 @@ body {
   background: #F6FAFF;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .box-container {
@@ -56,6 +56,7 @@ body {
 }
 .box-container-picture {
   margin-right: 32px;
+  padding-top: 10px;
 }
 .box-container-picture > img {
   width: auto;
